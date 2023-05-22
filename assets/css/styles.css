@@ -451,6 +451,20 @@ img {
   background-color: var(--first-color);
 }
 
+.skills__close .skills__list {
+  height: 0;
+  overflow: hidden;
+}
+
+.skills__open .skills__list {
+  height: max-content;
+  margin-bottom: var(--mb-2-5);
+}
+
+.skills__open .skills__arrow {
+  transform: rotate(-180deg);
+}
+
 /*==================== per skill type ===================*/
 .skills__csharp {
   width: 90%;
@@ -468,26 +482,66 @@ img {
   width: 40%;
 }
 
-/*==================== QUALIFICATION ====================*/
+.skills__javascript {
+  width: 70%;
+}
 
+.skills__css {
+  width: 25%;
+}
 
-/*==================== SERVICES ====================*/
+.skills__html {
+  width: 30%
+}
 
+.skills__sql {
+  width: 40%;
+}
 
-/* Active Modal */
+.skills__studio {
+  width: 85%;
+}
 
+.skills_devops {
+  width: 50%;
+}
 
-/*==================== PORTFOLIO ====================*/
+.skills__git {
+  width: 50%;
+}
 
+.skills__druapl {
+  width: 25%;
+}
 
-/*==================== PROJECT IN MIND ====================*/
-
-
-/*==================== TESTIMONIAL ====================*/
-
+.skills__testing {
+  width: 50%;
+}
 
 /*==================== CONTACT ME ====================*/
+.contact__container {
+  row-gap: 3rem;
+}
 
+.contact__information {
+  display: flex;
+}
+
+.contact__icon {
+  font-size: 2rem;
+  color: var(--first-color);
+  margin-right: var(--mb-0-75);
+}
+
+.contact__title {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+}
+
+.contact__subtitle {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+}
 
 /*==================== FOOTER ====================*/
 
